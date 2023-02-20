@@ -1,12 +1,12 @@
 "use strict";
-window.addEventListener("load", start);
+window.addEventListener("load", initApp);
 
 // ========== Variables ========== //
 let number = 0;
 
-// ========== Start Event ========== //
+// ========== Init App Event ========== //
 
-function start() {
+function initApp() {
     number = 0;
     document.querySelector("#btn-increment").addEventListener("click", incrementNumber);
     document.querySelector("#btn-decrement").addEventListener("click", decrementNumber);
