@@ -31,3 +31,4 @@ function displayNumber() {
     document.querySelector("#message").textContent = `The number is: ${number}`;
     // document.querySelector("#message").textContent = "The number is:" + number;
 }
+
